@@ -15,52 +15,166 @@
 
 <body>
 
-   <!-----------Main Header-------->
+<!--------------Main Header------------->
 
-   <header class="main-header">
+<header class="main-header">
 
     <!---------Navbar----------->
-    <nav class="navbar navbar-expand-sm scrolling-navbar navbar-dark fixed-top bg-dark">
-    <div class="container">
-        <a href="index.html" class="navbar-brand">
-           <i class="fa fa-seedling"></i>  Venkat Grand international</a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#hotel">
-                <span class="navbar-toggler-icon"></span>
-            </button>
- 
-             <div class="navbar-collapse collapse" id="hotel">
-                 <ul class="navbar-nav ml-auto align-items-center">
-                     <li class="nav-item px-2">
-                         <a href="#" class="nav-link">Home</a>
-                     </li>
-                      <li class="nav-item px-2">
-                         <a href="#" class="nav-link">About</a>
-                     </li>
-                      <li class="nav-item px-2">
-                         <a href="#" class="nav-link">Destination</a>
-                     </li>
-                      <li class="nav-item px-2">
-                         <a href="#" class="nav-link">Contact</a>
-                     </li>
-                     <li class="nav-item px-2">
-                         <a href="#" class="btn btn-danger rounded-pill">Book Now</a>
-                     </li>
-                 </ul>
-             </div>
-    </div>
+    <nav class="navbar navbar-expand-sm scrolling-navbar navbar-dark fixed-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+            <i class="fa fa-seedling"></i>  Venkat Grand international</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#hotel">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="navbar-collapse collapse" id="hotel">
+                    <ul class="navbar-nav ml-auto align-items-center">
+                        <li class="nav-item px-2">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a href="#" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a href="#destination" class="nav-link">Destination</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a href="#" class="btn btn-danger rounded-pill">Book Now</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
     </nav>
 
     <!----------Landing page------>
 
-     <div class="landing-div">
-         <div class="landing-wrapper">
-             <div>
-                 <h1 class="text-danger">Welcome to Journey Of your Future World</h1>
+    <div class="landing-div">
+         <div class="landing-wrapper d-flex flex-column h-100 align-items-center justify-content-center text-center">
+             <div class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h1 class="display-4 animated slideInLeft delay-1s">Enjoy Your Day Grandly <br> At Peace</h1>
+                    </div> 
+                    <div class="carousel-item">
+                        <h1 class="display-4 animated slideInRight delay-1s">Make Tours Amazing <br> With Us</h1>
+                    </div>
+                    <div class="carousel-item">
+                        <h1 class="display-4 animated slideInDown delay-1s">Feel Relaxed In Holidays</h1>
+                    </div>
              </div>
          </div>
      </div>
-
    </header>
+
+    <section class="p-3 bg-dark text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="" class="form-check-label">Check In Date</label>
+                            <input type="date" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="" class="form-check-label">Check Out Date</label>
+                            <input type="date" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label for="" class="form-check-label">Adults</label>
+                            <select class="form-control">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label for="" class="form-check-label">Children</label>
+                            <select class="form-control">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <input type="submit" class="btn btn-danger rounded-pill">
+                    </div>
+            </div>
+        </div>
+    </section>
+
+<!-----------------Destination------------------>
+
+    <section class="p-4" id="destination">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <i class="fas fa-suitcase-rolling fa-3x text-secondary"></i>
+                            <h3 class="font-weight-bold">Activities</h3>
+                            <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, corrupti! Consequatur excepturi debitis sit dolore.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <i class="fas fa-plane-departure fa-3x text-success"></i>
+                            <h3 class="font-weight-bold">Transportation</h3>
+                            <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, corrupti! Consequatur excepturi debitis sit dolore.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <i class="fas fa-person-booth fa-3x text-warning"></i>
+                            <h3 class="font-weight-bold">Personal Guide</h3>
+                            <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, corrupti! Consequatur excepturi debitis sit dolore.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <i class="fas fa-chalkboard-teacher fa-3x text-danger"></i>
+                            <h3 class="font-weight-bold">Location Manager</h3>
+                            <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, corrupti! Consequatur excepturi debitis sit dolore.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h1 class="font-weight-bold">It's time to start your adventure.</h1>
+                    <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae reprehenderit assumenda et sequi laudantium sapiente distinctio iure fugit, ullam soluta?</p>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, ullam commodi. Harum adipisci, quisquam, magnam quo fugit officiis nobis excepturi ea nesciunt quam non unde autem qui hic? Officiis veritatis earum eaque cupiditate doloribus voluptates sapiente eius ab voluptate magni.</p>
+                    <button class="btn btn-danger rounded-pill">Search Destination</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -68,6 +182,11 @@
 <script src="Bootstrap/js/bootstrap.min.js"></script>
 <script src="Bootstrap/js/popper.min.js"></script>
 <script src="Bootstrap/js/mdb.min.js"></script>
+<script>
+    $('.carousel').carousel({
+        interval : 3000,
+    });
+</script>
 </body>
 
 </html>

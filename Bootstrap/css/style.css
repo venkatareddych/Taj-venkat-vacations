@@ -79,3 +79,22 @@ body{
   .dest-card:hover .dest-card-info{
       width: 80%;
   }
+  .myimg {
+      position: relative;
+  }
+  .location-price{
+      position: absolute;
+      top: 20px ;
+      right: 0;
+      background-color:lightgreen;
+      color: black;
+
+  }
+  .main-footer{
+      background: white url(../../img/cty.jpg) no-repeat scroll center;
+      background-size: cover;
+       color: white;
+  }
+  .footer-wrapper{
+      background: rgba(0,0,0,0.5)   ;
+  }

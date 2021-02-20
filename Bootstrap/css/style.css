@@ -17,7 +17,11 @@ body{
 }
 .navbar .navbar-brand{
     font-size: 25px;
-    font-weight: bold
+    font-weight: bold;
+}
+.top-nav-collapse{
+    background-color: black;
+    padding: 0.75rem !important;
 }
 
 /*----------------Landing Page-----------------*/
@@ -35,4 +39,43 @@ body{
 .landing-wrapper h1{
     font-size: 80px;
 }
- 
+
+/*-------------------images--------------*/
+
+.image{
+    border-radius: 20px;
+    box-shadow: 0 15px 15px black;
+}
+
+/*-------------Destination Card-------------*/
+
+.dest-card {
+    border-radius: 10px !important;
+    color: white;
+}
+.dest-card-img {
+    border-radius: 10px !important;
+    position: relative;
+}
+.dest-card-title {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+ .dest-card-info h3{
+     margin-bottom: 0;
+ }
+ .dest-card-info{
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     background-color:coral;
+     color: white;
+     padding: 10px 15px;
+     border-radius: 0 50px 50px 0;
+     width: 50%;
+     transition: all 0.5s;
+ }
+  .dest-card:hover .dest-card-info{
+      width: 80%;
+  }

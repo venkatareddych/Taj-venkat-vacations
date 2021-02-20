@@ -24,29 +24,18 @@
     background: white
 }
 
- .bg-teal , .btn-teal{
- background: #236666; !important;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+html{
+    scroll-behavior: smooth;
 }
-.text-teal{
-    color: #236666; !important;
+
+body{
+    font-family: 'Ubuntu',sans-serif;
 }
- .carousel .carousel-indicators li {
-     width: 30px;
-     height: 5px;
-     border-radius: 0%;
-     cursor: pointer;
- }
- html{
-     scroll-behavior: smooth;
- }
- @media (max-width: 576px) {
-     .carousel-caption{
-         bottom: 10px;
-     }
- }
- .carousel-caption p {
-     display: none;
- }
-    
+
+.landing-div{
+      background: white url(../../img/res.jpg) no-repeat scroll center;
+}
 
  
